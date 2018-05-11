@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>Chofa Ride - Professional Riding partner</title><link rel=icon type=image/png sizes=32x32 href=/static/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/static/img/icons/favicon-16x16.png><!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]--><link rel=manifest href=/static/manifest.json><meta name=theme-color content=#000000><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><meta name=apple-mobile-web-app-title content=chofaride><link rel=apple-touch-icon href=/static/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/static/img/icons/safari-pinned-tab.svg color=#000000><meta name=msapplication-TileImage content=/static/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000><link rel=preload href=/static/js/vendor.fe27c4c0f262be95f6c0.js as=script><link rel=preload href=/static/js/app.3bc70760b84b9dc8f30a.js as=script><link rel=preload href=/static/css/app.2527bc73a5fe39d3c08181523493c9ac.css as=style><link rel=preload href=/static/js/manifest.2ae2e69a05c33dfc65f8.js as=script><link rel=stylesheet href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons"><link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Cormorant+Garamond|Cormorant+Unicase|Gugi|Montserrat" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light|Yatra+One" rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.12/css/all.css><style>body {
+        background: #fff !important;
+        /* font-family: 'Montserrat', sans-serif;
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Gugi', cursive;
+font-family: 'Comfortaa', cursive; */
+font-family: 'Montserrat', sans-serif !important;
+font-weight: 550 !important;
+      }
+      .form-control {
+        font-family: 'Montserrat', sans-serif !important;
+font-weight: 550 !important;
+        
+      }
+      #mapmy {
+  position: absolute;
+	left: 0px !important;
+  width: 100%;
+	margin-top: -9vh;
+  height: 100vh;
+  filter: hue-rotate(45deg);
+  background-image: url('/static/img/pattern.jpg') !important;
+  background-size: contain;
+	/* overflow: visible !important; */
+}
+.gm-style-mtc, button[title="Toggle fullscreen view"]{
+	top: 50px !important;
+}
+
+
+/* your custom CSS \*/
+
+@-moz-keyframes pulsate {
+  from {
+    -moz-transform: scale(0.25);
+
+    opacity: 1;
+  }
+
+  95% {
+    -moz-transform: scale(1.3);
+
+    opacity: 0;
+  }
+
+  to {
+    -moz-transform: scale(0.3);
+
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulsate {
+  from {
+    -webkit-transform: scale(0.25);
+
+    opacity: 1;
+  }
+
+  95% {
+    -webkit-transform: scale(1.3);
+
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: scale(0.3);
+
+    opacity: 0;
+  }
+}
+#mapmy div.gmnoprint[title="location"] {
+  -moz-animation: pulsate 1.5s ease-in-out infinite;
+  -webkit-animation: pulsate 1.5s ease-in-out infinite;
+  border: 100px solid rgb(251, 255, 8);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: inset 0 0 5px rgb(221, 255, 0),
+    inset 0 0 5px rgb(243, 255, 19), inset 0 0 5px gold, 0 0 5px gold,
+    0 0 5px gold, 0 0 5px gold;
+
+  -webkit-box-shadow: inset 0 0 5px rgb(221, 255, 0),
+    inset 0 0 5px rgb(221, 255, 0), inset 0 0 5px gold, 0 0 5px gold,
+    0 0 5px gold, 0 0 5px gold;
+
+  box-shadow: inset 0 0 5px rgb(229, 255, 0), inset 0 0 5px rgb(221, 255, 0),
+    inset 0 0 5px gold, 0 0 5px gold, 0 0 5px gold, 0 0 5px gold;
+  height: 11px !important;
+  margin: -90px 0 0 -90px;
+  width: 51px !important;
+}
+
+#mapmy div.gmnoprint[title="location"] img {
+  display: none;
+}
+#mapmy div.gmnoprint[title="cartop"] {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+   transition: transform .8s ease-in-out;
+}
+#mapmy div.gmnoprint[title="cartop"]:hover {
+  -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.pac-container{
+                    padding-bottom: 20px !important;
+                    width: 96% !important;
+                    left: 2% !important;
+                }
+                .pac-item{
+                    padding: 15px !important;
+                }
+                .pac-matched {
+                    color: #c29200;
+                }
+                .pac-item:hover {
+                    background: #000;
+
+                }
+                .pac-item:hover .pac-item-query{
+                    color: #fff;
+                    
+                }
+                .pac-icon {
+                    color: gold;
+                }</style><link href=/static/css/app.2527bc73a5fe39d3c08181523493c9ac.css rel=stylesheet></head><body><noscript>This is your fallback content in case JavaScript fails to load.</noscript><div id=app></div><script>!function(){"use strict";var o=Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));window.addEventListener("load",function(){"serviceWorker"in navigator&&("https:"===window.location.protocol||o)&&navigator.serviceWorker.register("service-worker.js").then(function(o){o.onupdatefound=function(){if(navigator.serviceWorker.controller){var n=o.installing;n.onstatechange=function(){switch(n.state){case"installed":break;case"redundant":throw new Error("The installing service worker became redundant.")}}}}}).catch(function(o){console.error("Error during service worker registration:",o)})})}();</script><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.fe27c4c0f262be95f6c0.js></script><script type=text/javascript src=/static/js/app.3bc70760b84b9dc8f30a.js></script></body></html>
